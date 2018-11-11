@@ -1,0 +1,45 @@
+
+<style>
+
+.box {
+width:200px; height:100px;
+margin:5px; padding:10px; border:1px solid black;
+background-color:　"#FFCC66";
+}
+
+</style>
+
+title>ホーム</title>
+<meta charset = "utf-8">
+<link rel="icon" href="favicon.icon" type="text/css">
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+    $(".box").animate({left:"30px"}, 1000);
+
+    $(".box").hover(
+      function(){
+        $(this).css("background-color","#669933");
+        var tx = $(this).attr("title");
+        $("#linkText").text("→ "+tx);
+        $("#linkText").fadeIn("fast");
+      } ,
+      function(){
+        $(this).css("background-color","#FFCC66");
+        $("#linkText").text("");
+        $("#linkText").fadeOut("fast");
+      }
+    );
+  });
+//--></script>
+
+
+HTMLソース
+
+<body>
+<h1>Study jQuery</h1>
+<a href="http://www.cutt.co.jp/">
+<DIV class="box" >
