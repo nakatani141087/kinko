@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+ <meta charset = "utf-8">
+ <title>メールフォーム</title>
+<link rel="stylesheet" type="text/css" href="body.css">
+</head>
+
+
+<body>
+  <center>
+    <ul class="topnav">
+  	<li><a href="home.html">Home</a></li>
+  	<li><a href="news.html">First</a></li>
+  	<li><a class="active" href="contact.html">Contact</a></li>
+    <li><a href= "about.html">About</a></li>
+  	<li class="right"><a href="login.html">Login</a></li>
+  </ul>
+  
+  <h1>メールフォーム</h1>
+  <script type="text/javascript" charset="UTF-8"></script>
+  <TABLE>
+  
+  <TR>
+  <form action="./mail.php" method="post">
+    <TD>お名前</TD>
+    <TD><INPUT type="text" name="to" size=32></TD>
+  </TR>
+  <TR>
+    <TD>タイトル</TD>
+    <TD><INPUT type="text" name="titlet" size=32></TD>
+  </TR> 
+    <TD>コメント</TD>
+    <TD><TEXTAREA name="content" rows=5 cols=25></TEXTAREA></TD>
+  </TR>
+  <TR>
+    <TD><INPUT type="submit" name="send" value="送信"></TD>
+    </form>
+    
+    
+    <TD><INPUT type="reset" value="クリア"></TD>
+  </TR>
+</TABLE>
+</FORM>
+</BODY>
+
+</center>
+</body>
+</html>
