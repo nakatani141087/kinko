@@ -1,0 +1,1000 @@
+  454  gedit servo.py &
+  455  python servo.py 
+  456  sudo apt-cache --names-only search gpio
+  457  sudo dpkg -l | grep -e "python.*gpio"
+  458  python servo.py 
+  459  gedit math.py
+  460  python math.py
+  461  python math.py > result.txt
+  462  python servo.py 
+  463  gedit servo_lock.py
+  464  python servo.py 
+  465  gedit servo_lock.py
+  466  python servo.py 
+  467  python servo.py &
+  468  gedit servo_lock.py &
+  469  python servo.py
+  470  python servo_lock.py
+  471  ls
+  472  history > install.txt
+  473  cat install.txt 
+  474  apache2
+  475  apache2 -v
+  476  sudo apt-get update
+  477  sudo apt-get upgrade
+  478  apache2
+  479  cat install.txt 
+  480  apach2 -v
+  481  apache2 -v
+  482  sudo apache2ctl start
+  483  sudo apache2 start
+  484  sudo apache2 -k start
+  485  less /etc/apache2/apache2.conf
+  486  gedit /etc/apache2/apache2.conf &
+  487  sudo gedit /etc/apache2/apache2.conf &
+  488  sudo apache2 -k start
+  489  sudo apt-get remove apache
+  490  sudo apt-get remove apache2
+  491  sudo apt-chche search php
+  492  sudo apt-cache search php
+  493  cat install.txt 
+  494  grep apt-get install.txt 
+  495  sudo apt-get remove apache2-dev apache2-mpm-prefork
+  496  sudo apt autoremove apache2
+  497  sudo apt-get remove apache2-dev apache2-mpm-prefork
+  498  sudo apt-get apache2
+  499  sudo apt-get install apache2
+  500  startx
+  501  sudo apt-get upgrade
+  502  sudo apt-get update
+  503  startx
+  504  vim
+  505  sudo apt-get install vim
+  506  vim hello.py
+  507  ifconfig
+  508  python hello.py 
+  509  mv ./hello.py /usr/lib/cgi-bin/
+  510  sudo cp ./hello.py /usr/lib/cgi-bin/
+  511  ls
+  512  httpd -M
+  513  ls
+  514  gedit intal.txt
+  515  cd pi
+  516  cl
+  517  ls
+  518  //
+  519  //cd
+  520  /cd
+  521  ../
+  522  ls
+  523  httpd -M
+  524  sudo httpd -M
+  525  ls
+  526  cd /etc/httpd
+  527  cd /etc/
+  528  ls
+  529  cd apache2
+  530  ls
+  531  cd conf-enabled/
+  532  ls
+  533  cd ../
+  534  cd conf-available/
+  535  ls
+  536  cd ../
+  537  ls
+  538  grep -r .conf ./
+  539  ls
+  540  less apache2.conf 
+  541  ls /usr/local/
+  542  shutdown now
+  543  ls
+  544  cd pi/
+  545  ;s
+  546  ls
+  547  python servo.py
+  548  vim servo.py
+  549  ls
+  550  less math.py 
+  551  cd ../
+  552  ls
+  553  cd pi
+  554  ls
+  555  less result.txt 
+  556  vim math.py 
+  557  python math.py > result.txt 
+  558  less result.txt 
+  559  python servo_lock.py 
+  560  cd /etc/apache2/
+  561  ls
+  562  cd sites-available/
+  563  ls
+  564  cd ,,.
+  565  cd ../
+  566  ls sites-enabled/
+  567  ls mods-available/
+  568  ls mods-enabled/
+  569  httpd -v
+  570  apt-chach search apache
+  571  apt-cache search apache
+  572  ls
+  573  vim apache2.conf 
+  574  sudo vim apache2.conf 
+  575  sudo gedit apache2.conf 
+  576  sudo gedit apache2.conf &
+  577  /var/www/html/foo
+  578  /etc/apache2
+  579  sudo httpd.conf
+  580  sudo gedit httpd.conf
+  581  ls
+  582  sudo service apache2 status
+  583  nc localhost 80
+  584  sudo gedit httpd.conf
+  585  sudo gedit apache2.conf &
+  586  sudo vim apache2.conf 
+  587  ls /home/.vimrc
+  588  echo ~/vimrc
+  589  ls
+  590  ls /home/cic-shimane/
+  591  ls -la /home/cic-shimane/
+  592  ls /etc/vim/vimrc
+  593  less /etc/vim/vimrc
+  594  sudo vim /etc/vim/vimrc
+  595  echo "hi Comment ctermfg=DarkGreen">> /etc/vim/vimrc
+  596  sudo echo "hi Comment ctermfg=DarkGreen">> /etc/vim/vimrc
+  597  sudo vim /etc/vim/vimrc
+  598  su root
+  599  sudo vim /etc/vim/vimrc
+  600  sudo vim apache2.conf
+  601  ls
+  602  ls -la ./
+  603  less .viminfo 
+  604  vim test.py 
+  605  service httpd stop
+  606  service httpd start
+  607  /et/init.d/httpd stop
+  608  service httpd stop
+  609  apachectl stop
+  610  apache2ctl stop
+  611  service httpd restart
+  612  service httpd status
+  613  grep httpd
+  614  ps agx
+  615  grep httpd
+  616  ps agx grep httpd
+  617  service httpd stop
+  618  service https start
+  619  /etc/apache2
+  620  cd etc
+  621  systemctl enable httpd.service
+  622  httpasswd -c /etc/httpd/conf//htpasswd.dat user
+  623  cd /var/www/
+  624  ls
+  625  cd html/
+  626  ls
+  627  vim index.html 
+  628  cd /etc/apache2/
+  629  sudo vim apache2.conf 
+  630  sudo emacs apache2.conf 
+  631  sudo vim apache2.conf 
+  632  ls
+  633  grep -r httpasswd.dat ./
+  634  httpasswd 
+  635  htpasswd 
+  636  htpasswd -c /etc/apache2/conf/htpasswd.dat user
+  637  sudo htpasswd -c /etc/apache2/conf/htpasswd.dat cic-shimane
+  638  ls
+  639  mkdir conf
+  640  sudo mkdir conf
+  641  sudo htpasswd -c /etc/apache2/conf/htpasswd.dat cic-shimane
+  642  cd conf
+  643  ls
+  644  less htpasswd.dat 
+  645  cd ../
+  646  sudo vim apache2.conf 
+  647  history
+  648  apach2 -k stop
+  649  apache2 -k stop
+  650  apache2 -k status
+  651  apache2 -k restart
+  652  startx
+  653  sudo apt-get gradeup startx
+  654  sudo apt-get update startx
+  655  sudo apt-get install startx
+  656  sudo apache2 -k start
+  657  sudo apachectl start
+  658  sudo apt install apache2
+  659  sudo apt autoremove
+  660  sudo apachectl start
+  661  apache2
+  662  sudo apache2
+  663  sudo vim apache2.conf 
+  664  sudo apache2
+  665  sudo vim apache2.conf 
+  666  apache
+  667  apache2
+  668  apache2 -h
+  669  apache2 -f
+  670  apache2 -f apache2.conf 
+  671  apache2 -k stop
+  672  sudo apachectl status
+  673  sudo apachectl restart
+  674  sudo service apache2 stop
+  675  sudo service apache2 start
+  676  service -h
+  677  sudo vim apache2.conf 
+  678  sudo service apache2 stop
+  679  sudo service apache2 start
+  680  journalctl -xe
+  681  ls
+  682  ls -la
+  683  ls mods-available/
+  684  ls mods-enabled/
+  685  ls
+  686  ls conf
+  687  ls conf-available/
+  688  ls conf-enabled/
+  689  cd mods-available/
+  690  ls
+  691  cd ../
+  692  ls
+  693  sudo vim apache2.conf 
+  694  cd mods-available/
+  695  ls
+  696  sudo a2enmod authz_user
+  697  cat authz_user.load 
+  698  cat auth_basic.load 
+  699  sudo a2enmod auth_basic
+  700  sudo a2enmod authn_file 
+  701  cd ../
+  702  sudo service apachectl restart
+  703  sudo service apache2 resutart
+  704  sudo service apache2 restart
+  705  sudo service apache2 stop
+  706  sudo service apache2 start
+  707  history > 1105.txt
+  708  cd /home/cic-shimane/
+  709  ls
+  710  history > 1105.txt
+  711  shutdown now
+  712  cd /etc/apache2/conf/
+  713  ls
+  714  cat htpasswd.dat 
+  715  cd /var/www/html/
+  716  ls
+  717  cat index.html 
+  718  history
+  719  sudo service apache2 start
+  720  sudo service apache2 restart
+  721  cd /usr/share/doc/apache2
+  722  ls
+  723  gzip
+  724  gzip -dc README.Debian.gz 
+  725  ls
+  726  sudo service apache2 restart
+  727  sudo service apache2 restar
+  728  sudo service apache2 stop
+  729  sudo service apache2 start
+  730  sudo service apache2 stop
+  731  sudo service apache2 start
+  732  ls
+  733  cd pi
+  734  ls
+  735  cd /etc/
+  736  ls
+  737  history
+  738  grep cd history
+  739  cd apache2/
+  740  ls
+  741  cat apache2.conf 
+  742  vim apache2.conf 
+  743  sudo vim apache2.conf 
+  744  reboot
+  745  sudo service apache2 start
+  746  cd /etc/apache2/
+  747  ls
+  748  vim apache2.conf 
+  749  sudo vim apache2.conf 
+  750  vim apache2.conf 
+  751  cd hom
+  752  cd home
+  753  cd /home
+  754  ls
+  755  vim apache2.conf 
+  756  ls
+  757  ls -a
+  758  cd cic-shimane/
+  759  ls
+  760  ls -a
+  761  cat .viminfo 
+  762  ifconfig
+  763  cd /etc/apache2/
+  764  ls
+  765  cd conf
+  766  ls
+  767  cat htpasswd.dat 
+  768  sudo su
+  769  ls
+  770  history
+  771  <html>
+  772  <body>
+  773  <div style="width: 100%; font-size: 40px; font-weight: bold; text-align: center;">
+  774  Test Page for Basic Auth
+  775  </div>
+  776  </body>
+  777  sudo service apache2 stop
+  778  sudo service apache2 start
+  779  cd /var/www/
+  780  sudo service apache2 start
+  781  system status apache2.service 
+  782  systemctl status apache2.service 
+  783  sudo service apache2 start
+  784  sudo su
+  785  cd /var/www/
+  786  ls
+  787  cd html/
+  788  ls
+  789  cd ../
+  790  ls
+  791  cd html
+  792  cd auth-basic/
+  793  ls
+  794  ls -a
+  795  cd ../
+  796  ls -a
+  797  ifconfig
+  798  cd /var/www/
+  799  ls
+  800  cd html/
+  801  ls
+  802  cd auth-basic/
+  803  vim index.py
+  804  sudo vim index.py
+  805  chmod 755 index.py 
+  806  sudo chmod 755 index.py 
+  807  sudo a2enmod userdir
+  808  mkdir ~/public_html
+  809  ls
+  810  sudo cp /var/www/html/auth-basic/*.html ~/public_html/
+  811  sudo cp /var/www/html/auth-basic/* ~/public_html/
+  812  cat /etc/apache2/ports.conf 
+  813  sudo vim  /etc/apache2/ports.conf 
+  814  sudo service apache2 restart
+  815  ls
+  816  cd ../
+  817  ls
+  818  sudo service apache2 restart
+  819  cd../
+  820  ../
+  821  cd /etc
+  822  cl
+  823  ls
+  824  cd /apache2
+  825  cd apache2
+  826  ls
+  827  sudo vim apache2.conf
+  828  sudo vim mods-available
+  829  cdconf
+  830  cd conf
+  831  ls
+  832  sudo vim htpasswd.dat
+  833  cd ../
+  834  ls
+  835  cd conf-availavle
+  836  cd conf-available
+  837  ls
+  838  cd ../
+  839  cd site-available
+  840  cd sites-available
+  841  ls
+  842  sudo vi 000-default.conf 
+  843  sudo vim auth-basic.conf 
+  844  sudo vim default-ssl.conf 
+  845  sudo vim auth-basic.conf 
+  846  cd ~/public_html/
+  847  cd ../
+  848  ls
+  849  cd public_html/
+  850  ls
+  851  sudo service apache2 restart
+  852  cd ../
+  853  ls
+  854  cd /var/www/html
+  855  sudo text.html
+  856  sudo vim text.html
+  857  ifconfig
+  858  cd auth-basic/
+  859  ls
+  860  cd /etc/apache2/conf.d
+  861  cat /etc/apache2/conf.d
+  862  ls -a /etc/apache2/
+  863  sudo vim -a /etc/apache2/ports.conf 
+  864  sudo vim /etc/apache2/ports.conf 
+  865  sudo service apache2 restart
+  866  cd /etc/
+  867  cd apache2/
+  868  ls
+  869  cd sites-available/
+  870  ls
+  871  cat 000-default.conf 
+  872  sudo vim 000-default.conf 
+  873  cd ../
+  874  sudo vim apache2.conf 
+  875  cd sites-available/
+  876  ls
+  877  cat auth-basic.conf 
+  878  cat 000-default.conf 
+  879  sudo vim 000-default.conf 
+  880  cd /var/www/html/auth-basic>
+  881  cd /var/www/html/
+  882  sudo vi auth-basic
+  883  cd /etc/apache2/sites-available
+  884  ls
+  885  sudo vi auth-basic
+  886  cd /etc/
+  887  ls
+  888  cd init.d
+  889  ls
+  890  cd apache2
+  891  sudo vim apache2
+  892  sudo vim apache2 force-reload
+  893  cd /etc/
+  894  ls
+  895  cd apache2
+  896  ls
+  897  sudo vi apache2.conf
+  898  cd /var/www
+  899  ls
+  900  cd html
+  901  ls
+  902  sudo vim index.html 
+  903  cd auth-basic
+  904  ls
+  905  sudo vim index.html
+  906  sudo vim index.py
+  907  ls
+  908  sudo vim index.html 
+  909  cd /etc/apache2/sites-available
+  910  ls
+  911  sudo vim auth-basic.conf
+  912  cd ../
+  913  ls
+  914  cd conf
+  915  ls
+  916  cd../
+  917  cd ../
+  918  ls
+  919  sudo vi ports.conf
+  920  cd /home
+  921  ls
+  922  cd hoge
+  923  ls
+  924  cd ../
+  925  cd cic-shimane
+  926  ls
+  927  cd ../
+  928  cd /etc/apache2/sites-available/
+  929  ls
+  930  sudo vim 000-default.conf 
+  931  sudo vim auth-basic.conf 
+  932  ls
+  933  sudo vim auth-basic.conf 
+  934  cd /home/cic-shimane/
+  935  ls
+  936  cp public_html/* ./www
+  937  sudo cp public_html/* ./www
+  938  cd www/
+  939  ls
+  940  a2enmod userdir
+  941  ls
+  942  sudo service apache2 start
+  943  sudo service apache2 stop
+  944  sudo service apache2 start
+  945  cd /etc/apache2/
+  946  ls
+  947  sudo vim ports.conf 
+  948  ls
+  949  cd sites-enabled/
+  950  ls
+  951  cd ../
+  952  cd sites-available/
+  953  ls
+  954  gedit 000-default.conf &
+  955  sudo gedit www.conf &
+  956  sudo vim www.conf 
+  957  cat www.conf 
+  958  sudo vim www.conf 
+  959  cat www.conf 
+  960  ls
+  961  cd /etc/apache2/
+  962  ls
+  963  cd sites-available/
+  964  ls
+  965  sudo vim 000-default.conf 
+  966  sudo service apache2 start
+  967  sudo service apache2 restart
+  968  l
+  969  cd ../
+  970  ls
+  971  cd conf
+  972  ls
+  973  cd ../
+  974  sudo vim apache2.conf 
+  975  cd sites-available/
+  976  ls
+  977  sudo vim 000-default.conf 
+  978  cd ../
+  979  ls
+  980  sudo vim apache2.conf 
+  981  vim sites-available/auth-basic.conf
+  982  sudo vim sites-available/auth-basic.conf
+  983  a2ensite auth-basic
+  984  sudo su
+  985  ls
+  986  nagasakotsuyoshi
+  987  bash
+  988  sudo service apache2 start
+  989  sudo a2ensite 000-default.conf 
+  990  sudo a2dissite www.conf 
+  991  sudo service apache2 start
+  992  sudo a2ensite auth-basic.conf 
+  993  sudo service apache2 start
+  994  sudo a2dissite 000-default.conf 
+  995  sudo service apache2 start
+  996  sudo apt-get uninstall apache2
+  997  uninstall
+  998  sudo apt uninstall apache2
+  999  sudo apt-get remove apache2
+ 1000  sudo apt-get autoremove
+ 1001  ls
+ 1002  rm -d www public_html/
+ 1003  rm -r www public_html/
+ 1004  ls
+ 1005  rm -r www
+ 1006  ls
+ 1007  cd www
+ 1008  ls
+ 1009  shutdown now
+ 1010  history
+ 1011  history > 1119.txt
+ 1012  gedit 1119.txt
+ 1013  grep |sudo apt-get| 1119.txt
+ 1014  grep apt-get 1119.txt
+ 1015  cd /var/www/
+ 1016  ls
+ 1017  html
+ 1018  index.html
+ 1019  minichrome
+ 1020  chrome
+ 1021  chrome index.html 
+ 1022  chromium index.html 
+ 1023  sudo apt-get install chromium
+ 1024  ifconfig
+ 1025  sudo apt-get update
+ 1026  sudo apt-get upgrade
+ 1027  reboot
+ 1028  git clone https://github.com/nakatani141087/kinko.git
+ 1029  ls
+ 1030  cd kinko
+ 1031  ls
+ 1032  cd html/
+ 1033  ls
+ 1034  cd ../
+ 1035  cp -r ./html /var/www/html
+ 1036  sudo cp -r ./html /var/www/html
+ 1037  gedit apach-install.txt &
+ 1038  sudo apt-get install apach2
+ 1039  sudo apt-get install apach22
+ 1040  sudo apt-get install apache2
+ 1041  sudo apt autoremove
+ 1042  sudo apachectl start
+ 1043  sudo service apache2 start
+ 1044  journalctl
+ 1045  journalctl -ex
+ 1046  cd /etc/apache2/
+ 1047  ls
+ 1048  cd sites-available/
+ 1049  ls
+ 1050  sudo rm www.conf
+ 1051  sudo service apache2 start
+ 1052  sudo rm auth-basic.conf 
+ 1053  sudo service apache2 start
+ 1054  sudo vim 000-default.conf 
+ 1055  sudo service apache2 start
+ 1056  systemctl status apache2.conf
+ 1057  systemctl status apache2.service
+ 1058  cd ../
+ 1059  sudo vim apache2.conf 
+ 1060  cd sites-enabled/
+ 1061  ls
+ 1062  cd /etc
+ 1063  sudo apt-get remove apache2
+ 1064  sudo apt autoremove
+ 1065  ls
+ 1066  cd apache2/
+ 1067  ls
+ 1068  cd ../
+ 1069  rm -d apache2/
+ 1070  rm -h
+ 1071  rm --help
+ 1072  sudo apt-get autoremove apache2
+ 1073  sudo apt-get -purge autoremove apache2
+ 1074  sudo apt-get -p autoremove apache2
+ 1075  sudo apt -purge autoremove apache2
+ 1076  rm -help
+ 1077  rm --help
+ 1078  rm -r apache2/
+ 1079  cd apache2/
+ 1080  ls
+ 1081  rm -force apache2/
+ 1082  rm --help
+ 1083  rm -rf apache2/
+ 1084  cd ../
+ 1085  rm -rf apache2/
+ 1086  sudo rm -rf apache2/
+ 1087  ls
+ 1088  sudo apt-get install apache2
+ 1089  cd apache2/
+ 1090  cd sites-available/
+ 1091  ls
+ 1092  cd ../
+ 1093  cd sites-enabled/
+ 1094  ls
+ 1095  cd ../
+ 1096  ls
+ 1097  cd ../
+ 1098  sudo apt-get remove --purge apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common libapache2-mod-dnssd libapache2-svn
+ 1099  ls
+ 1100  sudo apt-get install apache2
+ 1101  ls
+ 1102  cd apache2/
+ 1103  ls
+ 1104  dpkg --get-selections | grep apache
+ 1105  cd ../
+ 1106  sudo apt-get remove --purge apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php7.0
+ 1107  cd /var/www/html/
+ 1108  ls
+ 1109  sudo rm -rf auth-basic/
+ 1110  ls
+ 1111  cd ../
+ 1112  sudo rm -d html/
+ 1113  ls
+ 1114  rm index.html 
+ 1115  sudo rm index.html 
+ 1116  ls
+ 1117  cd hoge
+ 1118  ls
+ 1119  cd ../
+ 1120  sudo -d hoge
+ 1121  sudo rm -d hoge
+ 1122  ls
+ 1123  cd ../
+ 1124  ls
+ 1125  dpkg --get-selections | grep php
+ 1126  dpkg --get-selections | grep apache
+ 1127  sudo apt-get install apache2
+ 1128  ls
+ 1129  cd /etc/
+ 1130  cd apache2/
+ 1131  ls
+ 1132  dpkg --get-selections | grep apache
+ 1133  sudo service apache2 start
+ 1134  sudo service apache2 stop
+ 1135  sudo service apache2 start
+ 1136  cd /var/www/
+ 1137  ls
+ 1138  cd html
+ 1139  ls
+ 1140  sudo vim test.html
+ 1141  ifconfig
+ 1142  git
+ 1143  ls
+ 1144  git clone https://github.com/nakatani141087/kinko.git
+ 1145  ls
+ 1146  man ln
+ 1147  ln -help
+ 1148  ln --help
+ 1149  sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
+ 1150  cd /etc/apache2/sites-available/
+ 1151  ls
+ 1152  sudo vim 000-default.conf 
+ 1153  cd ../
+ 1154  ls
+ 1155  cd mods-available/
+ 1156  ln --help
+ 1157  apt-chace search ie
+ 1158  apt-cache search ie
+ 1159  apt-cache search internet
+ 1160  apt-cache search internetEx
+ 1161  apt-cache search IE
+ 1162  apt-cache search internet explorer
+ 1163  less 1119.txt 
+ 1164  sudo a2enmod userdir
+ 1165  ls
+ 1166  mkdir public_html
+ 1167  sudo cp /var/www/html/* ~/public_html
+ 1168  cd public_html/
+ 1169  ls
+ 1170  cd ../
+ 1171  ls
+ 1172  sudo service apache2 restart
+ 1173  cp -r kinko/ public_html/
+ 1174  cd public_html/
+ 1175  ls
+ 1176  cd kinko/
+ 1177  ls
+ 1178  cd /etc/apache2/mods-available/
+ 1179  ls
+ 1180  sudo less mime.conf
+ 1181  sudo vim mime.conf
+ 1182  cd ../
+ 1183  cd conf-available/
+ 1184  ls
+ 1185  sudo vim serve-cgi-bin.conf 
+ 1186  cd
+ 1187  ls
+ 1188  cd public_html/
+ 1189  ls
+ 1190  mkdir cgi-bin
+ 1191  cd cgi-bin/
+ 1192  vim test.py
+ 1193  cd ../
+ 1194  ls
+ 1195  sudo service apache2 restart
+ 1196  sudo a2enmod ./
+ 1197  sudo a2enmod public_html
+ 1198  sudo a2enmod userdir
+ 1199  sudo service apache2 restart
+ 1200  ls
+ 1201  cd cgi-bin/
+ 1202  ls
+ 1203  sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
+ 1204  cd /etc/apache2/sites-available
+ 1205  ls
+ 1206  sudo vim 000-default.conf 
+ 1207  cd ../mods-available/
+ 1208  ls
+ 1209  sudo vim mime.conf
+ 1210  cd ../
+ 1211  cd conf-available/
+ 1212  sudo vim serve-cgi-bin.conf 
+ 1213  sudo service apache2 restart
+ 1214  cd /home/cic-shimane/public_html/
+ 1215  ls
+ 1216  cd cgi-bin/
+ 1217  ls
+ 1218  vim test.py
+ 1219  sudo service apache2 restart
+ 1220  cd ../
+ 1221  ls
+ 1222  chmod cgi-bin 755
+ 1223  chmod
+ 1224  chmod --help
+ 1225  chmod 755 cgi-bin
+ 1226  sudo service apache2 restart
+ 1227  chmod -l
+ 1228  chmod --help
+ 1229  chmod -c
+ 1230  chmod
+ 1231  chmod 755 cgi-bin/test.py
+ 1232  sudo service apache2 restart
+ 1233  cp /home/cic-shimane/pi/servo_lock.py ./
+ 1234  ls
+ 1235  mv servo_lock.py ./cgi-bin/
+ 1236  cd cgi-bin/
+ 1237  ls
+ 1238  chmod 755 servo_lock.py 
+ 1239  ls
+ 1240  sudo service apache2 restart
+ 1241  less servo_lock.py 
+ 1242  gedit test.py &
+ 1243  vim servo_lock.py 
+ 1244  gedit servo_lock.py &
+ 1245  sudo service apache2 restart
+ 1246  gpasswd --help
+ 1247  gpasswd www-data
+ 1248  sudo gpasswd www-data
+ 1249  sudo gpasswd -M www-data
+ 1250  sudo gpasswd -r www-data
+ 1251  sudo gpasswd -a www-data gpio
+ 1252  cd /etc/apache2/
+ 1253  ls
+ 1254  less envvars 
+ 1255  ps auxw
+ 1256  ps auxw |grep httpd
+ 1257  sudo gpasswd -a cic-shimane gpio
+ 1258  sudo service apache2 restart
+ 1259  less envvars 
+ 1260  sudo gpasswd -a www-data gpio
+ 1261  sudo gpasswd -a www-data wiringpi
+ 1262  sudo gpasswd -a www-data wiringPi
+ 1263  id
+ 1264  sudo service apache2 restart
+ 1265  sudo gpasswd -a www-data gpio
+ 1266  sudo service apache2 restart
+ 1267  cd /home/cic-shimane/
+ 1268  cd public_html/
+ 1269  ls
+ 1270  cd cgi-bin/
+ 1271  ls
+ 1272  vim led.py
+ 1273  echo 25
+ 1274  python led.py 
+ 1275  ls
+ 1276  chmod 755 led.py
+ 1277  ls
+ 1278  sudo service apache2 restart
+ 1279  sudo gpasswd -a www-data gpio
+ 1280  sudo service apache2 restart
+ 1281  less led.py 
+ 1282  cd /etc/apache2/
+ 1283  ls
+ 1284  less apache2.conf 
+ 1285  sudo service apache2 restart
+ 1286  less apache2.conf 
+ 1287  ls
+ 1288  less envvars 
+ 1289  sudo gpasswd -a www-data gpio
+ 1290  sudo gpasswd -a a gpio
+ 1291  sudo service apache2 restart
+ 1292  ls
+ 1293  cd conf-available/
+ 1294  ls 
+ 1295  cd ../
+ 1296  cd mods-available/
+ 1297  ls
+ 1298  cd ../
+ 1299  ls
+ 1300  cd mods-enabled/
+ 1301  cd /home/cic-shimane/
+ 1302  cd public_html/cgi-bin/
+ 1303  chmod a+x led.py 
+ 1304  ls
+ 1305  sudo service apache2 restart
+ 1306  history
+ 1307  sudo a2enmod cgi
+ 1308  sudo service apache2 restart
+ 1309  ls
+ 1310  cd /etc/apache2/
+ 1311  ;s
+ 1312  less apache2.conf 
+ 1313  cd conf-available/
+ 1314  less localized-error-pages.conf 
+ 1315  reboot
+ 1316  cd /etc/apache2/
+ 1317  tail -f error
+ 1318  tail -f error_log
+ 1319  grep error ./
+ 1320  grep -d  error ./
+ 1321  grep -r  error ./
+ 1322  sudo service apache2 start
+ 1323  cd /etc/apache2/
+ 1324  CustomLog 
+ 1325  apt-cache search CustomLog
+ 1326  ErrorLog
+ 1327  ls
+ 1328  cd sites-enabled/
+ 1329  ls
+ 1330  ls -a
+ 1331  cd ../
+ 1332  cd sites-available/
+ 1333  ls
+ 1334  ls -a
+ 1335  cd ../
+ 1336  cd mods-available/
+ 1337  ls
+ 1338  ls -a
+ 1339  cd ../
+ 1340  ls
+ 1341  ls -a mods-available/
+ 1342  ls -a mods-enabled/
+ 1343  ls
+ 1344  ls -a conf-available/
+ 1345  ls -a conf-enabled/
+ 1346  less sites-available/000-default.conf 
+ 1347  cd /var/log/apache2/
+ 1348  ls
+ 1349  less error.log 
+ 1350  httpd -v
+ 1351  httpd -V
+ 1352  cd /etc/apache2/
+ 1353  ls
+ 1354  less apache2.conf 
+ 1355  cd conf-available/
+ 1356  ls
+ 1357  sudo vim serve-cgi-bin.conf 
+ 1358  sudo service apache2 reload
+ 1359  sudo service apache2 start
+ 1360  sudo service apache2 reload
+ 1361  sudo service apache2 restart
+ 1362  sudo vim serve-cgi-bin.conf 
+ 1363  sudo service apache2 restart
+ 1364  cd /var/log/apache2/
+ 1365  less error.log 
+ 1366  cd /home/cic-shimane/
+ 1367  cd public_html/
+ 1368  ls
+ 1369  cd cgi-bin/
+ 1370  ls
+ 1371  vim led.py 
+ 1372  sudo service apache2 restart
+ 1373  gedit led.py &
+ 1374  sudo service apache2 restart
+ 1375  python servo_lock.py 
+ 1376  sudo service apache2 restart
+ 1377  sudo vim servo_lock.py  
+ 1378  sudo gpasswd -a www-data wiringpi
+ 1379  sudo adduser www-data i2c
+ 1380  sudo adduser www-data spi
+ 1381  sudo adduser www-data gpio
+ 1382  sudo service apache2 restart
+ 1383  cd /usr/lib/python
+ 1384  cd /usr/lib/
+ 1385  ls
+ 1386  python -v
+ 1387  python -help
+ 1388  python -h
+ 1389  python -V
+ 1390  cd python2.7
+ 1391  ls
+ 1392  cd ../
+ 1393  cd python3
+ 1394  ls
+ 1395  cd dist-packages/
+ 1396  ls
+ 1397  cd ../../
+ 1398  cd python3.5
+ 1399  ls
+ 1400  cd ../../
+ 1401  sudo apt-get install libapache2-mod-python
+ 1402  sudo service apache2 restart
+ 1403  gpio -v
+ 1404  sudo service apache2 restart
+ 1405  less /var/log/error.conf
+ 1406  less /var/log/apache2/error.log 
+ 1407  sudo apt-get install libi2c-dev
+ 1408  cd ~
+ 1409  ls
+ 1410  git clone git://git.drogon.net/wiringPi
+ 1411  cd wiringPi
+ 1412  ./build
+ 1413  gpio -v
+ 1414  cd ../
+ 1415  cd pi/
+ 1416  ls
+ 1417  python3 servo_lock.py 
+ 1418  sudo apt-get update
+ 1419  sudo apt-get install python3-dev python3-pip
+ 1420  sudo pip3 install wiringpi2
+ 1421  git clone https://github.com/Gadgetoid/WiringPi2-Python.git
+ 1422  ls
+ 1423  cd WiringPi2-Python/
+ 1424  sudo python3 setup.py install
+ 1425  sudo python3
+ 1426  vim wiringpi_wrap.c 
+ 1427  sudo python3 setup.py install
+ 1428  sudo python3
+ 1429  cd ../
+ 1430  python servo_lock.py 
+ 1431  sudo service apache2 restart
+ 1432  cd ../
+ 1433  ls
+ 1434  cd public_html/
+ 1435  ls
+ 1436  cd public_html/
+ 1437  sudo service apache2 restart
+ 1438  ls
+ 1439  cd kinko/
+ 1440  ls
+ 1441  cd html
+ 1442  ls
+ 1443  cp -r ./img ../../cgi-bin/
+ 1444  cd ../../
+ 1445  ls
+ 1446  cd cgi-bin/
+ 1447  ls
+ 1448  sudo service apache2 restart
+ 1449  cd ~
+ 1450  ls
+ 1451  cd デスクトップ
+ 1452  ls
+ 1453  history > by_web.txt
