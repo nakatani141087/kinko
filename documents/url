@@ -19,6 +19,8 @@ Raspberry Piでサーボモータ（SG90）を制御する
 http://osksn2.hep.sci.osaka-u.ac.jp/~taku/osx/python/readfile.html
 python でファイルを読み込む
 
+https://make-muda.net/2016/07/3550/
+主にこれを参象
 http://blog.snowcait.info/2014/06/04/mariadb-utf8/
 mariaDB のutf8の設定-実際はutf8mb4が良いらしい
 http://make.bcde.jp/raspberry-pi/データベースを使うmysql/
@@ -26,3 +28,13 @@ mysql インストールとか
 https://cloudpack.media/1316
 mysql ユーザー一覧確認方法
 http://www.raspberrypirulo.net/entry/2016/11/05/データベース%28MySQL%29の使い方_%3A_Pythonコード編
+
+https://www.dbonline.jp/mysql/table/index19.html
+データベース　カラム変更
+
+https://www.jiriki.co.jp/blog/python/python-postmethod-form
+htmlからpython
+https://qiita.com/YoheiMiyamoto/items/f454a6c759f2245b085f
+mysqlのユーザー権限を付与
+https://www.dbonline.jp/mysql/user/index1.html
+ユーザー作成
