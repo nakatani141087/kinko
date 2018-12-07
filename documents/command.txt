@@ -1,6 +1,24 @@
-sudo apt-get update
-sudo apt-get upgrade
+1105.txt上での番号をこのテキストファイルの左側に表示
 
-reboot
+2.sudo apt-get update
+#APTライブラリのインデックスを更新する。
+  更新先は/etc/apt/sources.listに記述されている。
 
-wpa_supplicant.conf #wifiの設定ファイル　セキュリティ0
+?.sudo apt-get upgrade
+#システムにインストールされているパッケージを最新バージョンにする。
+
+3.reboot
+#再起動
+
+9.wpa_supplicant.conf 
+#wifiの設定ファイル　セキュリティ0
+
+10.id -a cic-shimane
+#ユーザーIDやユーザー名、グループID、グループ名などの識別情報を表示するコマンド。
+
+11.ip addr
+#ネットワークデバイスのIPアドレス
+
+12.usermod
+#ユーザーをいじる
+
