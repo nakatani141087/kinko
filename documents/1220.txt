@@ -1,0 +1,1000 @@
+ 1031  cd ../
+ 1032  cd python3
+ 1033  ls
+ 1034  cd dist-packages/
+ 1035  ls
+ 1036  cd ../../
+ 1037  cd python3.5
+ 1038  ls
+ 1039  cd ../../
+ 1040  sudo apt-get install libapache2-mod-python
+ 1041  sudo service apache2 restart
+ 1042  gpio -v
+ 1043  sudo service apache2 restart
+ 1044  less /var/log/error.conf
+ 1045  less /var/log/apache2/error.log 
+ 1046  sudo apt-get install libi2c-dev
+ 1047  cd ~
+ 1048  ls
+ 1049  git clone git://git.drogon.net/wiringPi
+ 1050  cd wiringPi
+ 1051  ./build
+ 1052  gpio -v
+ 1053  cd ../
+ 1054  cd pi/
+ 1055  ls
+ 1056  python3 servo_lock.py 
+ 1057  sudo apt-get update
+ 1058  sudo apt-get install python3-dev python3-pip
+ 1059  sudo pip3 install wiringpi2
+ 1060  git clone https://github.com/Gadgetoid/WiringPi2-Python.git
+ 1061  ls
+ 1062  cd WiringPi2-Python/
+ 1063  sudo python3 setup.py install
+ 1064  sudo python3
+ 1065  vim wiringpi_wrap.c 
+ 1066  sudo python3 setup.py install
+ 1067  sudo python3
+ 1068  cd ../
+ 1069  python servo_lock.py 
+ 1070  sudo service apache2 restart
+ 1071  cd ../
+ 1072  ls
+ 1073  cd public_html/
+ 1074  ls
+ 1075  cd public_html/
+ 1076  sudo service apache2 restart
+ 1077  ls
+ 1078  cd kinko/
+ 1079  ls
+ 1080  cd html
+ 1081  ls
+ 1082  cp -r ./img ../../cgi-bin/
+ 1083  cd ../../
+ 1084  ls
+ 1085  cd cgi-bin/
+ 1086  ls
+ 1087  sudo service apache2 restart
+ 1088  cd ~
+ 1089  ls
+ 1090  cd デスクトップ
+ 1091  ls
+ 1092  history > by_web.txt
+ 1093  cd /etc/wpa_supplicant/
+ 1094  less wpa_supplicant.conf 
+ 1095  ps auxw | grep httpd
+ 1096  sudo service apache2 restart
+ 1097  ls
+ 1098  less /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1099  id -a cic-shimane 
+ 1100  ip addr
+ 1101  sudo usermod
+ 1102  groups 
+ 1103  cd デスク
+ 1104  cd デスクトップ/
+ 1105  cd documents/
+ 1106  git
+ 1107  git clone https://github.com/nakatani141087/kinko.git
+ 1108  ls
+ 1109  ls -la
+ 1110  mkdir kinko/documents
+ 1111  mv *.txt ./kinko/documents/
+ 1112  ls
+ 1113  mv url ./kinko/documents/
+ 1114  ls
+ 1115  cd kinko
+ 1116  ls -l
+ 1117  ls -a
+ 1118  git add ./documents/
+ 1119  git commit -m "資料作成中"
+ 1120  git config --global user.email "naga2443b.o.c4649@gmail.com"
+ 1121  git config --global user.name "nagasakotsuyoshi"
+ 1122  git commit -m "資料作成中"
+ 1123  git push originmaster
+ 1124  git push origin master
+ 1125  git status
+ 1126  git pull
+ 1127  cd ../
+ 1128  mysql
+ 1129  sudo apt-get update
+ 1130  sudo apt-get install mysql-server
+ 1131  mysql -u root -p
+ 1132  mysql -u cic-shimane -p
+ 1133  su
+ 1134  mysql -u cic-shimane@cicPi -p
+ 1135  mysql -u cic-shimane -p
+ 1136  mysql -u root -p
+ 1137  mysql
+ 1138  reboot
+ 1139  mysql
+ 1140  mysql -h
+ 1141  mysql -help
+ 1142  man mysql
+ 1143  mysql --help
+ 1144  sudo apt-get install mysql-server
+ 1145  mysql -u root -p
+ 1146  mysql --defaults-group-suffix=#
+ 1147  sudo mysql -u root -p
+ 1148  sudo vim /etc/mysql/my.cnf 
+ 1149  mysql -u root -p
+ 1150  sudo mysql -u root -p
+ 1151  cat /etc/my.cnf
+ 1152  cd /etc/
+ 1153  ls
+ 1154  ls *.conf
+ 1155  sudo mysql -u root -p
+ 1156  cd mysql/
+ 1157  ls
+ 1158  ls mariadb.conf.d/
+ 1159  less mariadb.conf.d/50-server.cnf 
+ 1160  sudo mysql -u root -p
+ 1161  sudo /etc/init.d/mysql restart
+ 1162  ls
+ 1163  sudo /etc/init.d/mysql restart
+ 1164  sudo mysql -u root -p
+ 1165  mysql -V
+ 1166  sudo mysql -u root -p
+ 1167  ls
+ 1168  cd kinko/
+ 1169  ls
+ 1170  cd ../
+ 1171  cd public_html/
+ 1172  ls
+ 1173  cd /etc/apache2/
+ 1174  ls
+ 1175  less apache2.conf 
+ 1176  cd sites-available/
+ 1177  ls
+ 1178  less 000-default.conf 
+ 1179  cd ../
+ 1180  ls
+ 1181  cd conf-available/
+ 1182  ls
+ 1183  cd ../
+ 1184  cd 
+ 1185  cd public_html/
+ 1186  ls
+ 1187  cd cgi-bin/
+ 1188  ls
+ 1189  vim test.py 
+ 1190  sudo pip install MySQL-python
+ 1191  sudo apt-get install python-dev
+ 1192  sudo pip install MySQL-python
+ 1193  sudo apt-get install gcc
+ 1194  sudo apt-get install libmysqlclient-dev
+ 1195  apt-cache search libmysql
+ 1196  apt-cache search mysql-python
+ 1197  apt-cache search mysql python
+ 1198  pip install mysql-connector-python
+ 1199  ls
+ 1200  vim test.py
+ 1201  service acp
+ 1202  service apache2 restart
+ 1203  sudo service apache2 restart
+ 1204  reboot
+ 1205  history
+ 1206  pip uninstall mysql-connector-python
+ 1207  sudo service apache2 restart
+ 1208  reboot
+ 1209  ls
+ 1210  cd public_html/
+ 1211  ls
+ 1212  cd cgi-bin/
+ 1213  ls
+ 1214  vim test.py 
+ 1215  python test.py 
+ 1216  python3 test.py 
+ 1217  vim test.py 
+ 1218  python3 test.py 
+ 1219  vim test.py 
+ 1220  python test.py 
+ 1221  sudo service apache2 restart
+ 1222  gedit test.py servo_lock.py 
+ 1223  python servo_lock.py 
+ 1224  python test.py 
+ 1225  vim test.py 
+ 1226  python test.py 
+ 1227  vim test.py 
+ 1228  python test.py 
+ 1229  vim test.py 
+ 1230  python test.py 
+ 1231  vim test.py 
+ 1232  python test.py 
+ 1233  sudo apt-get install mysql-connector
+ 1234  sudo apt-get install libmysql-python
+ 1235  apt-cache search python
+ 1236  apt-cache search python sql
+ 1237  sudo pip install MySQL-Python
+ 1238  sudo pip install python-mysqldb
+ 1239  sudo apt-get install python-mysqldb 
+ 1240  vim test.py 
+ 1241  python test.py 
+ 1242  vim test.py 
+ 1243  python test.py 
+ 1244  sudo mysql -u root -p
+ 1245  python test.py 
+ 1246  vim test.py 
+ 1247  python test.py 
+ 1248  python test.py 
+ 1249  python servo_lock.py 
+ 1250  cd 
+ 1251  cd デスクトップ/
+ 1252  cd documents/kinko/
+ 1253  ls
+ 1254  git pull
+ 1255  git status
+ 1256  git add ../url
+ 1257  cd ../
+ 1258  ls
+ 1259  cd kinko/
+ 1260  ls
+ 1261  git pull
+ 1262  ls
+ 1263  cd documents/
+ 1264  ls
+ 1265  git add url
+ 1266  git commit -m "参考文献"
+ 1267  ls
+ 1268  git push origin master
+ 1269  mysql[
+ 1270  sudo mysql -u root -p
+ 1271  mysql -u root -p
+ 1272  sudo mysql -u root -p
+ 1273  mysql -u cic -p
+ 1274  sudo mysql -u root -p
+ 1275  mysql -u cic -p
+ 1276  sudo mysql -u root -p
+ 1277  sudo mysql -u cic -p
+ 1278  mysql -u cic -p
+ 1279  pip uninstall mysql
+ 1280  history
+ 1281  less history
+ 1282  less |history|
+ 1283  vim test.py 
+ 1284  sudo mysql -u root -p
+ 1285  sudo pip install MySQL-python
+ 1286  sudo apt-get install python-mysqldb
+ 1287  sudo apt-get update
+ 1288  sudo apt-get install mysql-server
+ 1289  mysql -u root -p
+ 1290  sudo mysql -u root -p
+ 1291  ls
+ 1292  less test.py 
+ 1293  history
+ 1294  rm test.py 
+ 1295  cd デスクトップ/
+ 1296  cd documents/
+ 1297  ls
+ 1298  cd kinko/
+ 1299  ls
+ 1300  cd documents/
+ 1301  ls
+ 1302  cd cd ../
+ 1303  cd ../
+ 1304  ls
+ 1305  cd kinko/
+ 1306  ls
+ 1307  cd ../
+ 1308  ls
+ 1309  cd documents/
+ 1310  ls
+ 1311  cd ../
+ 1312  vim test.py
+ 1313  sudo pip install PyMySQL
+ 1314  sudo service apache2 restart
+ 1315  mysql
+ 1316  mysql -u root -p
+ 1317  cic
+ 1318  sudo mysql -u root -p
+ 1319  vim test.py
+ 1320  python test.py 
+ 1321  vim test.py
+ 1322  python test.py 
+ 1323  vim test.py
+ 1324  python test.py 
+ 1325  sudo python test.py 
+ 1326  vim test.py 
+ 1327  python test.py 
+ 1328  less test.py 
+ 1329  python test.py 
+ 1330  vim test.python
+ 1331  vim test.py
+ 1332  python test.py 
+ 1333  vim test.py 
+ 1334  python test.py 
+ 1335  vim test.py 
+ 1336  python test.py 
+ 1337  vim test.py 
+ 1338  python test.py 
+ 1339  vim test.py 
+ 1340  python test.py 
+ 1341  vim test.py 
+ 1342  python test.py 
+ 1343  vim test.py 
+ 1344  python test.py 
+ 1345  vim test.py 
+ 1346  python test.py 
+ 1347  vim test.py 
+ 1348  python test.py 
+ 1349  vim test.py 
+ 1350  python test.py 
+ 1351  vim test.py 
+ 1352  python test.py 
+ 1353  vim test.py 
+ 1354  python test.py 
+ 1355  vim test.py 
+ 1356  python test.py 
+ 1357  vim test.py 
+ 1358  cd 
+ 1359  ls
+ 1360  cd kinko/
+ 1361  ls
+ 1362  cd ../
+ 1363  cd public_html/
+ 1364  ls
+ 1365  cd cgi-bin/
+ 1366  ls
+ 1367  gedit servo_lock.py &
+ 1368  cd デスクトップ/
+ 1369  cd 
+ 1370  cd デスクトップ/
+ 1371  cd documents/
+ 1372  ls
+ 1373  vim post.py
+ 1374  vim form.html
+ 1375  vim post.py
+ 1376  cd 
+ 1377  ls
+ 1378  cd public_html/
+ 1379  ls
+ 1380  cd cgi-bin/
+ 1381  ls
+ 1382  chmod 755 post.py 
+ 1383  sudo service apache2 restart
+ 1384  vim post.py 
+ 1385  python post.py 
+ 1386  less post.py 
+ 1387  cd ../
+ 1388  ls
+ 1389  vim form.html 
+ 1390  cd cgi-bin/
+ 1391  ls
+ 1392  cd ../
+ 1393  vim form.html 
+ 1394  less form.html 
+ 1395  gedit form.html 
+ 1396  sudo service apache2 restart
+ 1397  cd cgi-bin/
+ 1398  python post.py 
+ 1399  vim post.py 
+ 1400  python post.py 
+ 1401  vim post.py 
+ 1402  python post.py 
+ 1403  vim post.py 
+ 1404  python post.py 
+ 1405  cd デスクトップ/
+ 1406  cd documents/
+ 1407  ls
+ 1408  cd kinko/
+ 1409  git add .
+ 1410  ls
+ 1411  git status
+ 1412  git commit -m "シンボリックリンクを削除してオリジナルを追加"
+ 1413  git push origin master
+ 1414  git log
+ 1415  git add documents/command.txt 
+ 1416  git commit -m "コマンド調査後進"
+ 1417  git push origin master
+ 1418  apt-cache search vscord
+ 1419  apt-cache search vs
+ 1420  apt-cache search visual
+ 1421  apt-cache search sublime
+ 1422  cd public_html/
+ 1423  ls
+ 1424  cd kinko/
+ 1425  cd ../
+ 1426  cd sgi
+ 1427  cd cgi-bin/
+ 1428  ls
+ 1429  python servo_lock.py 
+ 1430  vim servo_lock.py 
+ 1431  python servo_lock.py 
+ 1432  vim servo_lock.py 
+ 1433  py
+ 1434  vim servo_lock.py 
+ 1435  python servo_lock.py 
+ 1436  vim servo_lock.py 
+ 1437  python servo_lock.py 
+ 1438  vim servo_lock.py 
+ 1439  python servo_lock.py 
+ 1440  vim servo_lock.py 
+ 1441  python servo_lock.py 
+ 1442  reboot
+ 1443  sudo service apache2 restart
+ 1444  ifconfig
+ 1445  reboot
+ 1446  mysql
+ 1447  mysql -u cic -p
+ 1448  shutdown now
+ 1449  ls
+ 1450  cd public_html/
+ 1451  ls
+ 1452  cd cgi-bin/
+ 1453  ls
+ 1454  vim post.py 
+ 1455  cd ../
+ 1456  ls
+ 1457  cd cgi-bin/
+ 1458  ls
+ 1459  gedit test.py 
+ 1460  gedit servo_lock.py &
+ 1461  cd ../
+ 1462  ls
+ 1463  gedit form.html &
+ 1464  vim login.html 
+ 1465  cd cgi-bin/
+ 1466  ls
+ 1467  vim login.py
+ 1468  cd デスクトップ/
+ 1469  cd documents/
+ 1470  ls
+ 1471  ls -l
+ 1472  cd kinko/
+ 1473  ls -l
+ 1474  ls -la
+ 1475  git pull origin master
+ 1476  cd デスクトップ/
+ 1477  ls
+ 1478  cd documents/
+ 1479  ls
+ 1480  cd kinko/
+ 1481  ls
+ 1482  git pull
+ 1483  cd kinko
+ 1484  ls
+ 1485  cd ../
+ 1486  ls
+ 1487  cd html
+ 1488  ls
+ 1489  cd ../
+ 1490  ;s
+ 1491  ls
+ 1492  git pull origin master
+ 1493  cd デスクトップ/
+ 1494  cd documents/
+ 1495  ls
+ 1496  cd kinko/
+ 1497  git pull origin master
+ 1498  cd public_html/
+ 1499  ls
+ 1500  cd cgi-bin/
+ 1501  ls
+ 1502  vim login.py
+ 1503  ls
+ 1504  chmod 775 login.py
+ 1505  ls
+ 1506  chmod 755 login.py 
+ 1507  sudo service apache2 restart
+ 1508  python login.py
+ 1509  vim login.py 
+ 1510  python login.py
+ 1511  vim login.py 
+ 1512  python login.py
+ 1513  vim login.py 
+ 1514  python login.py
+ 1515  vim login.py 
+ 1516  python login.py
+ 1517  vim login.py 
+ 1518  python login.py
+ 1519  vim login.py 
+ 1520  python login.py
+ 1521  vim login.py 
+ 1522  python login.py
+ 1523  vim login.py 
+ 1524  python login.py
+ 1525  vim login.py 
+ 1526  python login.py
+ 1527  vim login.py 
+ 1528  python login.py
+ 1529  vim login.py 
+ 1530  python login.py
+ 1531  vim login.py 
+ 1532  python login.py
+ 1533  vim login.py 
+ 1534  python login.py
+ 1535  vim login.py 
+ 1536  python login.py
+ 1537  vim login.py 
+ 1538  python login.py
+ 1539  vim login.py 
+ 1540  python login.py
+ 1541  vim login.py 
+ 1542  python login.py
+ 1543  vim login.py 
+ 1544  python login.py
+ 1545  vim login.py 
+ 1546  python login.py
+ 1547  vim login.py 
+ 1548  python login.py
+ 1549  vim login.py 
+ 1550  python login.py
+ 1551  vim login.py 
+ 1552  python login.py
+ 1553  vim login.py 
+ 1554  python login.py
+ 1555  vim login.py 
+ 1556  python login.py
+ 1557  vim login.py 
+ 1558  python login.py
+ 1559  vim login.py 
+ 1560  python login.py
+ 1561  vim login.py 
+ 1562  python login.py
+ 1563  vim login.py 
+ 1564  python login.py
+ 1565  vim login.py 
+ 1566  python login.py
+ 1567  vim login.py 
+ 1568  python login.py
+ 1569  vim login.py 
+ 1570  python login.py
+ 1571  vim login.py 
+ 1572  python login.py
+ 1573  vim login.py 
+ 1574  cd ../
+ 1575  ls
+ 1576  vim lock.py
+ 1577  ls
+ 1578  vim lock_unlock.html
+ 1579  cd cgi-bin/
+ 1580  ls
+ 1581  less test.py 
+ 1582  vim hello.py
+ 1583  python -i
+ 1584  vim hello.py
+ 1585  python hello.py
+ 1586  vim hello.py
+ 1587  python hello.py
+ 1588  vim hello.py
+ 1589  python hello.py
+ 1590  vim hello.py
+ 1591  python hello.py
+ 1592  vim hello.py
+ 1593  python hello.py
+ 1594  vim hello.py
+ 1595  python hello.py
+ 1596  vim hello.py
+ 1597  python hello.py
+ 1598  vim hello.py
+ 1599  python hello.py
+ 1600  ls
+ 1601  vim testHello.py
+ 1602  python testHello.py 
+ 1603  vim testHello.py
+ 1604  ls
+ 1605  vim lock.py
+ 1606  vim servo_lock.py 
+ 1607  vim lock.py
+ 1608  python lock.py
+ 1609  vim lock.py
+ 1610  python lock.py
+ 1611  vim lock.py
+ 1612  python lock.py
+ 1613  vim lock.py
+ 1614  python lock.py
+ 1615  less lock.py 
+ 1616  python servo_lock.py 
+ 1617  vim servo_lock.py 
+ 1618  python servo_lock.py 
+ 1619  vim servo_lock.py 
+ 1620  python servo_lock.py 
+ 1621  vim servo_lock.py 
+ 1622  python servo_lock.py 
+ 1623  vim servo_lock.py 
+ 1624  python servo_lock.py 
+ 1625  vim servo_lock.py 
+ 1626  python servo_lock.py 
+ 1627  vim servo_lock.py 
+ 1628  python servo_lock.py 
+ 1629  vim servo_lock.py 
+ 1630  python servo_lock.py 
+ 1631  vim servo_lock.py 
+ 1632  python servo_lock.py 
+ 1633  vim servo_lock.py 
+ 1634  python servo_lock.py 
+ 1635  vim lock.py 
+ 1636  python lock.py 
+ 1637  ls
+ 1638  chmod 755 lock.py
+ 1639  ls
+ 1640  chmod -l
+ 1641  chmod --hlp
+ 1642  chmod --help
+ 1643  chmod -v
+ 1644  chmod --verbose
+ 1645  chmod --verbose lock.py
+ 1646  ls -la
+ 1647  chmod 644 led.py
+ 1648  ls -la
+ 1649  cd ../
+ 1650  ls
+ 1651  cd html
+ 1652  ls
+ 1653  vim login.html
+ 1654  cd ../cgi-bin/
+ 1655  ls
+ 1656  vim login.py
+ 1657  python login.py
+ 1658  vim login.py
+ 1659  python login.py
+ 1660  vim login.py
+ 1661  python login.py
+ 1662  vim login.py
+ 1663  python login.py
+ 1664  vim login.py
+ 1665  python login.py
+ 1666  vim login.py
+ 1667  python login.py
+ 1668  vim login.py
+ 1669  python login.py
+ 1670  vim login.py
+ 1671  sudo service apache2 restart
+ 1672  python login.py 
+ 1673  vim login.py 
+ 1674  python login.py 
+ 1675  vim login.py 
+ 1676  python login.py 
+ 1677  vim login.py 
+ 1678  cd ../
+ 1679  cd html
+ 1680  ls
+ 1681  vim login.html 
+ 1682  cd ../
+ 1683  cd cgi-bin/
+ 1684  ls
+ 1685  vim login.py 
+ 1686  cd ../html/
+ 1687  ls
+ 1688  vim login.html 
+ 1689  cd ../cgi-bin/
+ 1690  ls
+ 1691  vim login.py 
+ 1692  mysql -u cic -p
+ 1693  shutdown now
+ 1694  cd public_html/
+ 1695  ls
+ 1696  cd cgi-bin/
+ 1697  ls
+ 1698  vim signUp.py 
+ 1699  vim login.py 
+ 1700  cd public_html/
+ 1701  chmod
+ 1702  chmod -l
+ 1703  chmod -v
+ 1704  chmod --help
+ 1705  chmod -c
+ 1706  chmod --verbose
+ 1707  chmod 755 -c
+ 1708  chmod --reference=RFILE
+ 1709  ls -l
+ 1710  ls
+ 1711  chmod 644 test
+ 1712  ls -l
+ 1713  cd cgi-bin/
+ 1714  ls
+ 1715  chmod 644 servo_lock.py
+ 1716  chmod 600 hello.py
+ 1717  ls
+ 1718  chmod 000 hello.py
+ 1719  ls
+ 1720  chmod 644 hello.py
+ 1721  ls
+ 1722  vim signUp.py 
+ 1723  ls
+ 1724  cd public_html/
+ 1725  ls
+ 1726  cd cgi-bin/
+ 1727  ls]
+ 1728  ls
+ 1729  less lock.py 
+ 1730  ls
+ 1731  cd ../
+ 1732  ls
+ 1733  less lock_unlock.html 
+ 1734  cd cgi-bin/
+ 1735  vim lock.py 
+ 1736  python lock.py 
+ 1737  vim lock.py 
+ 1738  python lock.py 
+ 1739  vim lock.py 
+ 1740  python lock.py 
+ 1741  vim lock.py 
+ 1742  python lock.py 
+ 1743  vim lock.py 
+ 1744  python lock.py 
+ 1745  vim lock.py 
+ 1746  python lock.py 
+ 1747  vim lock.py 
+ 1748  mysql -u cic -p
+ 1749  cd public_html/
+ 1750  ls
+ 1751  cd cgi-bin/
+ 1752  ls
+ 1753  vim lock.py
+ 1754  ls
+ 1755  cd public_html/
+ 1756  ls
+ 1757  cd cgi-bin/
+ 1758  ls
+ 1759  ls -l
+ 1760  vim lock.py 
+ 1761  sudo service apache2 restart
+ 1762  python lock.py 
+ 1763  cd ../
+ 1764  ls
+ 1765  cd html/
+ 1766  vim controll.html 
+ 1767  cd ../
+ 1768  cd cgi-bin/
+ 1769  ls
+ 1770  chmod 755 servo_lock.py
+ 1771  ls
+ 1772  ls -l
+ 1773  chmod 444 servo_lock.py
+ 1774  sudo service apache2 restart
+ 1775  ls -l
+ 1776  cd ../
+ 1777  cd html/
+ 1778  vim controll.html 
+ 1779  cd ../
+ 1780  cd cgi-bin/
+ 1781  vim lock.py 
+ 1782  cd ../html/
+ 1783  ls
+ 1784  vim controll.html 
+ 1785  cd ../cgi-bin/
+ 1786  ls
+ 1787  vim lock.py 
+ 1788  vim login.py 
+ 1789  cd ../
+ 1790  cd html/
+ 1791  ls
+ 1792  vim login.html 
+ 1793  ls
+ 1794  vim controll.html 
+ 1795  ls
+ 1796  cd ../cgi-bin/
+ 1797  ls
+ 1798  vim lock.py 
+ 1799  ifconfig
+ 1800  cd public_html/
+ 1801  ls
+ 1802  cd cgi-bin/
+ 1803  ls
+ 1804  python servo_lock.py
+ 1805  mysql -u cic -p
+ 1806  ifconfig
+ 1807  ifconfig -a|more
+ 1808  netstat -rn
+ 1809  ifconfig -a|more
+ 1810  apache2
+ 1811  sudo service apache2 restart
+ 1812  less /etc/wpa_supplicant/
+ 1813  less /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1814  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1815  ifconfig
+ 1816  cd /etc/network/interfaces.d/
+ 1817  ls
+ 1818  cd ../
+ 1819  ls
+ 1820  less interfaces
+ 1821  cd interfaces.d/
+ 1822  ls
+ 1823  ls -la
+ 1824  cd ../../dhcp/
+ 1825  ls
+ 1826  cd ../
+ 1827  less dhcpcd.conf 
+ 1828  vi dhcpcd.conf 
+ 1829  vim dhcpcd.conf 
+ 1830  reboot
+ 1831  ifconfig
+ 1832  netstat -rn
+ 1833  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1834  cd /var/run/
+ 1835  ls
+ 1836  wpa_supplicant/
+ 1837  cd wpa_supplicant/
+ 1838  ls
+ 1839  less wlan0 
+ 1840  sudo less wlan0 
+ 1841  sudo less -f  wlan0 
+ 1842  ls -la
+ 1843  cd ../
+ 1844  ls
+ 1845  cd /etc/
+ 1846  ls
+ 1847  cd dhcp/
+ 1848  ls
+ 1849  cd ..
+ 1850  vim dhcpcd.conf 
+ 1851  reboot
+ 1852  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1853  cd /etc/
+ 1854  vim dhcpcd.conf 
+ 1855  sudo vim dhcpcd.conf 
+ 1856  reboot
+ 1857  cd /etc/
+ 1858  ls
+ 1859  cd wpa_supplicant/
+ 1860  ls
+ 1861  less wpa_supplicant.conf 
+ 1862  cd ../
+ 1863  ls
+ 1864  cd dhcp
+ 1865  ls
+ 1866  less dhclient.conf 
+ 1867  cd ../
+ 1868  cd wpa_supplicant/
+ 1869  vim wpa_supplicant.conf 
+ 1870  sudo vim wpa_supplicant.conf 
+ 1871  cd /var/
+ 1872  ls
+ 1873  ifconfig
+ 1874  cd et
+ 1875  cd /etc/
+ 1876  ls
+ 1877  vim dhcpcd.conf
+ 1878  ifconfig
+ 1879  reboot
+ 1880  cd /etc/
+ 1881  sudo vim dhcpcd.conf
+ 1882  cd wpa_supplicant/
+ 1883  vim wpa_supplicant.conf 
+ 1884  sudo vim wpa_supplicant.conf 
+ 1885  ifconfig
+ 1886  reboot
+ 1887  cd /etc/
+ 1888  cd wpa_supplicant/
+ 1889  sudo vim wpa_supplicant.conf 
+ 1890  cd /var/run/wpa_supplicant/
+ 1891  ls
+ 1892  reboot
+ 1893  cd /etc/
+ 1894  ls
+ 1895  cd dhcp/
+ 1896  cd ../
+ 1897  cd wpa_supplicant/
+ 1898  sudo vim wpa_supplicant.conf 
+ 1899  ls
+ 1900  sudo vim wpa_supplicant.conf 
+ 1901  reboot
+ 1902  cd /etc/
+ 1903  ls
+ 1904  cd wpa_supplicant/
+ 1905  ls
+ 1906  sudo vim wpa_supplicant.conf 
+ 1907  reboot
+ 1908  cd /etc/wpa_supplicant/
+ 1909  ls
+ 1910  sudo vim wpa_supplicant.conf 
+ 1911  reboot
+ 1912  man wpa_cli
+ 1913  wpa_cli HQ-WIFI_G 2
+ 1914  wpa_cli select_network 1
+ 1915  wpa_cli select_network 2
+ 1916  wpa_cli select_network 0
+ 1917  man wpa_cli
+ 1918  man wpa_supplicant
+ 1919  wpa_supplicant -h
+ 1920  wpa_supplicant -I
+ 1921  wpa_supplicant priority
+ 1922  wpa_supplicant -p
+ 1923  wpa_supplicant -d
+ 1924  wpa_supplicant -d -Dwext -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+ 1925  wpa_supplicant -d -Dwext -iCIC-shimane -c/etc/wpa_supplicant/wpa_supplicant.conf
+ 1926  wpa_supplicant -d -Dwext -iHQ-WIFI_G -c/etc/wpa_supplicant/wpa_supplicant.conf
+ 1927  wpa_supplicant -d -Dwext HQ-WIFI_G
+ 1928  wpa_supplicant -dHQ-WIFI_G
+ 1929  wpa_supplicant -d -iHQ-WIFI_G -c/etc/wpa_supplicant/wpa_supplicant.conf
+ 1930  wpa_supplicant -d -Dwext -iCIC-shimane -c/etc/wpa_supplicant/wpa_supplicant.conf
+ 1931  wpa_supplicant list
+ 1932  Could not connect to wpa_supplicant: (null) - re-trying
+ 1933  Could not connect to wpa_supplicant
+ 1934  wpa_supplicant re-traying
+ 1935  wpa_supplicant - re-traying
+ 1936  wpa_cli -v
+ 1937  less /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1938  cd public_html/
+ 1939  ls
+ 1940  cd cgi-bin/
+ 1941  python servo_lock.py
+ 1942  reboot
+ 1943  ls
+ 1944  cd public_html/
+ 1945  ks
+ 1946  ls
+ 1947  cd cgi-bin/
+ 1948  ls
+ 1949  python servo_lock.py
+ 1950  chmod 755 servo_lock.py
+ 1951  python servo_lock.py
+ 1952  python lock.py
+ 1953  ls
+ 1954  python servo_lock.py
+ 1955  ifconfig
+ 1956  python servo_lock.py
+ 1957  sudo service apache2 restart
+ 1958  python servo_lock.py
+ 1959  gpio
+ 1960  gpio -h
+ 1961  shutdown now
+ 1962  cd public_html/
+ 1963  cd cgi-bin/
+ 1964  python servo_lock.py
+ 1965  ls
+ 1966  python servo_lock.py
+ 1967  vim servo_lock.py
+ 1968  python servo_lock.py
+ 1969  vim servo_lock.py
+ 1970  python servo_lock.py
+ 1971  vim servo_lock.py
+ 1972  python servo_lock.py
+ 1973  vim servo_lock.py
+ 1974  python servo_lock.py
+ 1975  vim servo_lock.py
+ 1976  python servo_lock.py
+ 1977  vim servo_lock.py
+ 1978  python servo_lock.py
+ 1979  mysql -u cic -p
+ 1980  cd public_html/
+ 1981  ls
+ 1982  cd cgi-bin/
+ 1983  ls
+ 1984  vim servo_lock.py
+ 1985  vim lock.py
+ 1986  vim servo_lock.py
+ 1987  vim lock.py
+ 1988  python lock.py
+ 1989  sudo service apache2 restart
+ 1990  vim lock.py
+ 1991  vim ../html/controll.html 
+ 1992  vim lock.py
+ 1993  python lock.py
+ 1994  vim servo_lock.py
+ 1995  vim lock.py
+ 1996  shutdown now
+ 1997  cd デスクトップ
+ 1998  cd documents/
+ 1999  ls
+ 2000  cd kinko
+ 2001  ls
+ 2002  git add ./documents/system.md 
+ 2003  git commit -m "実装手順資料作成1-1"
+ 2004  git push origin master
+ 2005  git status
+ 2006  ls
+ 2007  git add ./documents/system.md 
+ 2008  git commit -m "実装手順資料作成1-2"
+ 2009  git push origin master
+ 2010  git resset --hard HEAD^
+ 2011  git reset --hard HEAD^
+ 2012  git pull
+ 2013  git add ./documents/system.md 
+ 2014  git commit -m "実装手順資料作成1-2"
+ 2015  git reset --hard HEAD^
+ 2016  git add ./documents/1220.txt 
+ 2017  git commit -m "実装手順資料作成1-2"
+ 2018  git status
+ 2019  git push origin master
+ 2020  git reset --hard HEAD^
+ 2021  git pull origin master
+ 2022  git status
+ 2023  ls
+ 2024  git status
+ 2025  git branch
+ 2026  git checkout dev
+ 2027  git checkout -b dev
+ 2028  git status
+ 2029  ls
+ 2030  history > ./documents/1220.txt
