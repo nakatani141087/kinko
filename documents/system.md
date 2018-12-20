@@ -15,13 +15,20 @@ $ sudo apt-get install jfbterm uim uim-anthy
 -----------
 ## ファイル構成 
 /home/
+
 └ cic-shimane/
-　└ public_html/
-　  ├ cgi-bin/   ・・・pythonのファイルを格納
-　  │　└ img/
-　  ├ html/      ・・・Web画面
-　  │　└ img/
-　  └ test/      ・・・CGIのテスト用ファイル
+
+└ public_html/
+
+ ├ cgi-bin/   ・・・pythonのファイルを格納
+　
+ │　└ img/
+　
+ ├ html/      ・・・Web画面
+　
+ │　└ img/
+　
+ └ test/      ・・・CGIのテスト用ファイル
 -----------
 ## 使用している言語
 ### Python
