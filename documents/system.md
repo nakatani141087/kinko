@@ -21,13 +21,13 @@ $ sudo apt-get install jfbterm uim uim-anthy
 └ public_html/
 
  ├ cgi-bin/   ・・・pythonのファイルを格納
-　
+
  │　└ img/
-　
+
  ├ html/      ・・・Web画面
-　
+
  │　└ img/
-　
+
  └ test/      ・・・CGIのテスト用ファイル
 -----------
 ## 使用している言語
